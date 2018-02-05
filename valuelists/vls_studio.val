@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:null,
+dataProviderID1:"descrizione",
+dataProviderID2:"codice",
+dataSource:"db:/ma_comunicazioni/tab_studio",
+name:"vls_studio",
+relationName:null,
+returnDataProviders:2,
+showDataProviders:1,
+typeid:34,
+uuid:"5A541A4C-42F8-4383-8C0A-14C35FE17848",
+valueListType:1

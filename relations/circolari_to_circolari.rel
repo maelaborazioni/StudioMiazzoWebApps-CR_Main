@@ -1,0 +1,7 @@
+allowCreationRelatedRecords:false,
+foreignDataSource:"db:/ma_comunicazioni/circolari",
+joinType:1,
+name:"circolari_to_circolari",
+primaryDataSource:"db:/ma_comunicazioni/circolari",
+typeid:22,
+uuid:"4F551E34-B530-4534-A92C-8155E114D879"

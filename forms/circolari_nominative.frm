@@ -1,0 +1,14 @@
+dataSource:"db:/ma_comunicazioni/circolari_nominative",
+extendsID:"E1B6951E-8C22-4464-9B19-707548D2B2DE",
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"1F15A482-08B1-4609-A437-1876A2AB615B"
+}
+],
+name:"circolari_nominative",
+styleName:"leaf_style",
+typeid:3,
+uuid:"A9040A38-4140-4A0D-98C2-3F14CB448EDA"

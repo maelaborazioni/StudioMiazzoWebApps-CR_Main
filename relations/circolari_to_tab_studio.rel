@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:false,
+allowParentDeleteWhenHavingRelatedRecords:true,
+deleteRelatedRecords:false,
+foreignDataSource:"db:/ma_comunicazioni/tab_studio",
+items:[
+{foreignColumnName:"codice",operator:0,primaryDataProviderID:"studio",typeid:23,uuid:"F8ED3ADA-D40B-474C-A558-5C69A3A5FFA6"}
+],
+joinType:1,
+name:"circolari_to_tab_studio",
+primaryDataSource:"db:/ma_comunicazioni/circolari",
+typeid:22,
+uuid:"12B68F24-24E5-4005-BFAB-1C595D1FD5FE"

@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/ma_comunicazioni/circolari_nominative",
+items:[
+{foreignColumnName:"idcircolarenominativa",operator:0,primaryDataProviderID:"idcircolarenominativa",typeid:23,uuid:"11791FEE-5A2E-4482-BC67-E04FEB82ED23"}
+],
+joinType:1,
+name:"circolari_to_circolari_nominative",
+primaryDataSource:"db:/ma_comunicazioni/circolari",
+typeid:22,
+uuid:"CE972EE7-7525-4A97-9A30-1FFF96F26C10"
