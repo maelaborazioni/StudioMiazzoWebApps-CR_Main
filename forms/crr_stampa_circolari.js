@@ -60,7 +60,7 @@ function filterDitte(fs)
 			
 		var ds = databaseManager.getDataSetByQuery(globals.Server.MA_ANAGRAFICHE,dsSql,null,-1);
 				
-		/** @type {JSFoundset<db:/ma_anagrafiche/ditte>} */
+		/** @type {JSFoundSet<db:/ma_anagrafiche/ditte>} */
 		var ditteFs = databaseManager.getFoundSet(globals.Server.MA_ANAGRAFICHE, globals.Table.DITTE);
 		if (ditteFs && ditteFs.find())
 		{
@@ -249,7 +249,7 @@ function process_stampa_circolare()
 			throw new Error('Impossibile recuperare la directory ' + dir);
 			
 		// Crea una copia per ogni ditta selezionata
-		/** @type {JSFoundset<db:/ma_anagrafiche/ditte>} */
+		/** @type {JSFoundSet<db:/ma_anagrafiche/ditte>} */
 		var fs = forms[elements.ditta_tabless.getTabFormNameAt(1)].foundset;
 		for(var d = 1; success && d <= fs.getSize(); d++)
 		{

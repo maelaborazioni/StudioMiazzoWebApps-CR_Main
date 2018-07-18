@@ -16,7 +16,7 @@ var PATH_CIRCOLARI = 'MagnaCartaSync/MagnacartaPdfDecoder/CIRCOLARI NOMINATIVE';
  */
 function scaricaCircolare(idCircolare)
 {
-	/** @type {JSFoundset<db:/ma_comunicazioni/circolari>}*/
+	/** @type {JSFoundSet<db:/ma_comunicazioni/circolari>}*/
 	var fs = databaseManager.getFoundSet(globals.Server.MA_COMUNICAZIONI,'circolari');
 	if(fs.find())
 	{
