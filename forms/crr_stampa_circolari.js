@@ -237,11 +237,11 @@ function process_stampa_circolare()
 			return false;
 		}
 		
-		var uri = globals.URI_FTP_MAGNACARTA;
+		var uri = globals.URI_FTP_SITO;
 		var dir = globals.PATH_CIRCOLARI;
 		var success = true;
 		
-		var ftp = plugins.it2be_ftp.createJFTPclient(uri, globals.Security.FTP_MAGNACARTA.user, globals.Security.FTP_MAGNACARTA.password);
+		var ftp = plugins.it2be_ftp.createJFTPclient(uri, globals.Security.FTP_SITO.user, globals.Security.FTP_SITO.password);
 		if(!ftp || !ftp.connect())
 			throw new Error('Impossibile connettersi al server ftp ' + uri);
 		
